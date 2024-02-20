@@ -1,4 +1,5 @@
 import Square from "./Square";
+import Confetti from 'react-confetti';
 
 export default function Board({ xIsNext, squares, onPlay }) {
     function handleClick(i) {
@@ -46,6 +47,7 @@ export default function Board({ xIsNext, squares, onPlay }) {
  
     return (
       <>
+        {winner && <Confetti />}
         <div className="status">{status}</div>
         <div className="board-row">
           <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
