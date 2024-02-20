@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Square from "./Square";
 
 export default function Board({ xIsNext, squares, onPlay }) {
@@ -34,15 +33,17 @@ export default function Board({ xIsNext, squares, onPlay }) {
         }
         return null;
       }
-  
+ 
     const winner = calculateWinner(squares);
     let status;
     if (winner) {
-      status = 'Winner: ' + winner;
+      status = winner + ' wins!';
+    } else if (squares.every(square => square !== null)) {
+      status = 'Ups! Try again';
     } else {
       status = 'Next player: ' + (xIsNext ? 'X' : 'O');
     }
-  
+ 
     return (
       <>
         <div className="status">{status}</div>
