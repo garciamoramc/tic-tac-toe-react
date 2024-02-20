@@ -1,16 +1,14 @@
-/* Estilos generales */
 body {
-  font-family: 'Roboto', sans-serif; /* Fuente de Google */
-  background-color: #1C1D24; /* Color de fondo */
-  color: #FFFFFF; /* Color del texto */
+  font-family: 'Roboto', sans-serif; 
+  background-color: #1C1D24; 
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  padding: 20px; /* Espacio alrededor del juego */
+  padding: 20px; 
 }
 
-/* Estilos del tablero */
 .game-board {
-  width: 5cm; /* Ancho del tablero */
+  width: 5cm; 
 }
 
 .board-row {
@@ -20,27 +18,24 @@ body {
 .square {
   font-size: 24px;
   font-weight: bold;
-  width: 2cm; /* Ancho de cada casilla */
-  height: 2cm; /* Altura de cada casilla */
-  margin: 2px; /* Margen entre las casillas */
-  background-color: #534674; /* Color de fondo de las casillas */
-  color: #FFFFFF; /* Color del texto en las casillas */
+  width: 2cm; 
+  height: 2cm; 
+  margin: 2px;
+  background-color: #534674; 
+  color: #FFFFFF; 
   border: none;
   cursor: pointer;
 }
 
-/* Estilos de la información del juego */
 .game-info {
-  width: 3cm; /* Ancho de la información */
+  width: 3cm;
 }
 
-/* Estilos del texto "Next player" */
 .status {
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-/* Estilos del texto de los botones */
 .game-info ol {
   list-style-type: none;
   padding: 0;
@@ -51,13 +46,13 @@ body {
 }
 
 .game-info ol li button {
-  background-color: #8612FA; /* Color de fondo de los botones */
-  color: #FFFFFF; /* Color del texto de los botones */
+  background-color: #8612FA; 
+  color: #FFFFFF; 
   border: none;
   padding: 5px 10px;
   cursor: pointer;
 }
 
 .game-info ol li button:hover {
-  background-color: #A642D8; /* Cambio de color al pasar el ratón */
+  background-color: #A642D8; 
 }
