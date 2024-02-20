@@ -19,7 +19,7 @@ Follow these steps to get the project up and running on your local machine:
 
 # Running the Application
 Once the dependencies are installed, you can start the development server. 
-- Run the following command: npm start
+- Run the following command: npm run dev
 
 This will start the development server and open the game in your default web browser.
 
