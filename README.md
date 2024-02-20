@@ -16,15 +16,15 @@ Follow these steps to get the project up and running on your local machine:
 - Clone the repository to your local machine: `git clone https://github.com/garciamoramc/tic-tac-toe.git`
 - Navigate to the project directory: `cd tic-tac-toe-react`
 - Install dependencies: `npm install`
-- Additionally, install the `react-confetti` package by running: `npm install react-confetti`
+- Additionally, install the 'react-confetti' package by running: `npm install react-confetti`
 
-### What is `react-confetti`?
+### What is react-confetti?
 
-`react-confetti` is a React component that creates a confetti effect, commonly used to provide celebratory feedback or enhance user experience in web applications.
+'react-confetti' is a React component that creates a confetti effect, commonly used to provide celebratory feedback or enhance user experience in web applications.
 
 # Running the Application
 Once the dependencies are installed, you can start the development server. 
-- Run the following command: npm run dev
+- Run the following command: `npm run dev`
 
 This will start the development server and open the game in your default web browser.
 
