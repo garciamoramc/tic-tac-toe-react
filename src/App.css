@@ -3,12 +3,19 @@ body {
   background-color: #1C1D24; 
   color: #FFFFFF;
   display: flex;
-  justify-content: space-between;
-  padding: 20px; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+}
+
+.game {
+  width: 90%; 
+  max-width: 500px; 
 }
 
 .game-board {
-  width: 5cm; 
+  width: 100%; 
 }
 
 .board-row {
@@ -28,12 +35,13 @@ body {
 }
 
 .game-info {
-  width: 3cm;
+  width: 100%; 
 }
 
 .status {
   font-size: 18px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .game-info ol {
@@ -43,6 +51,7 @@ body {
 
 .game-info ol li {
   margin-bottom: 5px;
+  text-align: center; 
 }
 
 .game-info ol li button {
