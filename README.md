@@ -11,7 +11,7 @@ The main technology employed in this project is React, a popular JavaScript libr
 Prerequisites
 Before starting, ensure you have Node.js and npm (Node Package Manager) installed on your system.
 
-Installation
+### Installation
 Follow these steps to get the project up and running on your local machine:
 - Clone the repository to your local machine: `git clone https://github.com/garciamoramc/tic-tac-toe.git`
 - Navigate to the project directory: `cd tic-tac-toe-react`
